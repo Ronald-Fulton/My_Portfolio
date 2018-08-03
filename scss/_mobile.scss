@@ -46,7 +46,11 @@
     transform: translate3d(100%, 0, 0);
 
     .portrait {
-      background: url('../img/portrait_small.jpg');
+      background: url('../img/me.png');
+      background-size: cover; /* or contain depending on what you want */
+      background-position: center center;
+      background-repeat: no-repeat;
+      text-align:center;
       width: 150px;
       height: 150px;
     }

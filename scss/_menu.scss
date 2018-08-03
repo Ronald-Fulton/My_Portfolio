@@ -89,7 +89,12 @@
     .portrait {
       width: 250px;
       height: 250px;
-      background: url('../img/portrait.jpg');
+      background: url('../img/me.png');
+      background-size: cover; /* or contain depending on what you want */
+      background-position: center center;
+      background-repeat: no-repeat;
+      text-align:center;
+      margin:auto;
       border-radius: 50%;
       border: solid 3px $secondary-color;
     }
